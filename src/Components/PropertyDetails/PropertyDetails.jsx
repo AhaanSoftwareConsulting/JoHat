@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Bed, Bathtub, Ruler } from "phosphor-react";
+
 import { getPropertyById } from "../../Api/Api";
 
 const PropertyDetails = () => {
@@ -35,17 +35,17 @@ const PropertyDetails = () => {
       <div className="mt-6 flex flex-wrap gap-4 text-sm">
 
         <span className="flex items-center gap-1 bg-yellow-400 px-3 py-1 rounded-full">
-          <Bed size={16} weight="fill" />
+          {/* <Bed size={16} weight="fill" /> */}
           {data.acf?.bedrooms}
         </span>
 
         <span className="flex items-center gap-1 bg-yellow-400 px-3 py-1 rounded-full">
-          <Bathtub size={16} weight="fill" />
+          {/* <Bathtub size={16} weight="fill" /> */}
           {data.acf?.bathrooms}
         </span>
 
         <span className="flex items-center gap-1 bg-yellow-400 px-3 py-1 rounded-full">
-          <Ruler size={16} weight="fill" />
+          {/* <Ruler size={16} weight="fill" /> */}
           {data.acf?.sqft}
         </span>
 

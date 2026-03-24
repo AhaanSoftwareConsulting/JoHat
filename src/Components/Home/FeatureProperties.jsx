@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Bed, Bathtub, Ruler } from "phosphor-react";
+
 import { useNavigate } from "react-router-dom";
 import { getProperties } from "../../Api/Api";
 
@@ -63,7 +63,7 @@ const FeatureProperties = () => {
                       {/* BED */}
                       <div className="flex items-center gap-2">
                         <span className="w-8 h-8 flex items-center justify-center bg-yellow-400 rounded-full text-black">
-                          <Bed size={16} weight="fill" />
+                          {/* <Bed size={16} weight="fill" /> */}
                         </span>
                         <span>{item.acf?.bedrooms}</span>
                       </div>
@@ -71,7 +71,7 @@ const FeatureProperties = () => {
                       {/* BATH */}
                       <div className="flex items-center gap-2">
                         <span className="w-8 h-8 flex items-center justify-center bg-yellow-400 rounded-full text-black">
-                          <Bathtub size={16} weight="fill" />
+                          {/* <Bathtub size={16} weight="fill" /> */}
                         </span>
                         <span>{item.acf?.bathrooms}</span>
                       </div>
@@ -79,7 +79,7 @@ const FeatureProperties = () => {
                       {/* AREA */}
                       <div className="flex items-center gap-2">
                         <span className="w-8 h-8 flex items-center justify-center bg-yellow-400 rounded-full text-black">
-                          <Ruler size={16} weight="fill" />
+                          {/* <Ruler size={16} weight="fill" /> */}
                         </span>
                         <span>{item.acf?.sqft} Sqft</span>
                       </div>
