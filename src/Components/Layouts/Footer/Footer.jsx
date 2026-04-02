@@ -190,7 +190,7 @@ const Footer = () => {
 
         <div className="flex gap-4">
           {[
-            { icon: <FacebookLogo size={28} />, link: "https://facebook.com" }, 
+            { icon: <FacebookLogo size={28} />, link: "https://www.facebook.com/JoheatEnterprises" }, 
             { icon: <LinkedinLogoIcon size={28} />, link: "https://www.linkedin.com/in/james-taylor-69b20544/" }, 
             { icon: <XLogo size={28} />, link: "https://x.com/JohatEnter3002" }, 
             { icon: <InstagramLogo size={28} />, link: "https://www.instagram.com/accounts/login/?next=%2Fjohatenterprises%2F&source=omni_redirect" }
