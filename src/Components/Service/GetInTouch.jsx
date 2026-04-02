@@ -30,7 +30,7 @@ const GetInTouch = () => {
 
   
 const socialLinks = [
-  { icon: FacebookLogoIcon, link: "https://facebook.com" },
+  { icon: FacebookLogoIcon, link: "https://www.facebook.com/JoheatEnterprises" },
   { icon: XLogoIcon, link: "https://x.com/JohatEnter3002" },
   { icon: InstagramLogoIcon, link: "https://www.instagram.com/accounts/login/?next=%2Fjohatenterprises%2F&source=omni_redirect" },
   { icon: LinkedinLogoIcon, link: "https://www.linkedin.com/in/james-taylor-69b20544/" },

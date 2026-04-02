@@ -164,7 +164,7 @@ useEffect(() => {
 
           {/* BOTTOM ICONS */}
           <div ref={(el) => (leftItemsRef.current[2] = el)} className="relative flex gap-4 pt-16 z-20">
-            <a href="https://facebook.com" className="p-2.5 border border-[#FFFFFF80] rounded-full flex items-center justify-center hover:scale-105"><FacebookLogoIcon size={24}/></a>
+            <a href="https://www.facebook.com/JoheatEnterprises" className="p-2.5 border border-[#FFFFFF80] rounded-full flex items-center justify-center hover:scale-105"><FacebookLogoIcon size={24}/></a>
             <a href="https://x.com/JohatEnter3002" className="p-2.5 border border-[#FFFFFF80] rounded-full flex items-center justify-center hover:scale-105"><XLogoIcon size={24}/></a>
             <a href="https://www.instagram.com/accounts/login/?next=%2Fjohatenterprises%2F&source=omni_redirect" className="p-2.5 border border-[#FFFFFF80] rounded-full flex items-center justify-center hover:scale-105"><InstagramLogoIcon size={24}/></a>
             <a href="https://www.linkedin.com/in/james-taylor-69b20544/" className="p-2.5 border border-[#FFFFFF80] rounded-full flex items-center justify-center hover:scale-105"><LinkedinLogoIcon size={24}/></a>
