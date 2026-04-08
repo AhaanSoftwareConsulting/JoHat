@@ -90,7 +90,7 @@ const HowWeWorks = () => {
 
         {/* HEADING */}
         <h2 ref={headingRef} className="text-center text-xl md:text-[35px] font-[#1c1c1c] font-bold tracking-[2px] uppercase font-designer">
-          How We Works
+          How We Work
         </h2>
 
         <p className="text-center text-gray-500 mt-3 font-[#333333] max-w-[700px] mx-auto text-[16px] font-lato">
