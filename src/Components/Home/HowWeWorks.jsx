@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import HowImg from "../../assets/how1.png";
+import HowImg from "../../assets/how1.webp";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 const stepsData = [
